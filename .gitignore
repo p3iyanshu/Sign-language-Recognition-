@@ -1,0 +1,16 @@
+# Virtual Environments & Cache
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# Large Raw Datasets & Temp Downloads (Keep trained models & evaluation assets)
+data/raw/
+archive (3)/
+*.csv
+*.zip
+*.task
+.DS_Store
+Thumbs.db
